@@ -561,16 +561,19 @@ footer .logo,
 .backdrop {
   width: 100%;
   height: 100%;
-  background-color: rgba(46, 47, 66, 0.7);
   position: fixed;
   top: 0;
   left: 0;
+  background-color: rgba(46, 47, 66, 0.4);
 
   /* Hidden block */
 
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+
+  ttransition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open {
@@ -629,8 +632,16 @@ footer .logo,
   letter-spacing: 0.64px;
   display: flex;
   align-items: center;
-  gap: 16px;
   border: none;
+  min-width: 165px;
+  justify-content: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.icon-team-fut {
+  margin-left: 16px;
+  fill: #fff;
 }
 
 .footer-sendbutton:hover,
