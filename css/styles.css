@@ -693,9 +693,9 @@ footer .logo,
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .close-svg {
-  !!!
-} */
+.close-svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .model-text {
   color: #2e2f42;
@@ -739,6 +739,7 @@ footer .logo,
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-form-footer {
@@ -825,7 +826,7 @@ footer .logo,
   padding: 16px 32px;
   color: #fff;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -842,4 +843,5 @@ footer .logo,
 .form-submit-button:focus {
   background-color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #ffffff;
 }
