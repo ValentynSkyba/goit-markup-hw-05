@@ -751,11 +751,6 @@ footer .logo,
   fill: #4d5ae5;
 
 
-.input-form:focus + .icon-form {
-  fill: #4d5ae5;
-}
-
-
 
 .icon-form {
   position: absolute;
@@ -775,7 +770,7 @@ footer .logo,
 }
 
 .input-form:focus + .icon-form {
-  fill: #ffffff;
+  fill: #4d5ae5;
 }
 
 .form-textarea-wrapper {
