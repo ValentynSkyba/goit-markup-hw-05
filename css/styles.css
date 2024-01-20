@@ -747,7 +747,11 @@ footer .logo,
 }
 
 .input-form:focus {
-  fill: #4d5ae5;
+  border-color: #4d5ae5;
+}
+
+.input-form:focus + .icon-form {
+  border-color: #4d5ae5;
 }
 
 .icon-form {
