@@ -746,8 +746,8 @@ footer .logo,
   border-radius: 4px;
 }
 
-.input-form:focus-within + .icon-form {
-  border-color: #4d5ae5;
+.input-form:focus {
+  fill: #4d5ae5;
 }
 
 .icon-form {
