@@ -750,7 +750,7 @@ footer .logo,
   border-color: #4d5ae5;
 }
 
-.input-name-input:focus-within .icon-form {
+.input-field-cont:focus-within .icon-form {
   fill: #4d5ae5;
 }
 
